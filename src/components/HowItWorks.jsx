@@ -14,8 +14,8 @@ const HowItWorks = () => {
         start: '20% bottom'
       },
       opacity: 0,
-      scale: 2,
-      duration: 2,
+      scale: 1,
+      duration: 1,
       ease: 'power2.inOut'
     })
 
@@ -31,7 +31,7 @@ const HowItWorks = () => {
     <section className="common-padding">
       <div className="screen-max-width">
         <div id="chip" className="flex-center w-full my-20">
-          <img src={chipImg} alt="chip" width={180} height={180} />
+          <img src={chipImg} alt="chip" width={180} height={180}/>
         </div>
 
         <div className="flex flex-col items-center">
